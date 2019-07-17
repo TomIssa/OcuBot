@@ -9,8 +9,13 @@ local User = 0
 local Staff = 1
 local OnDuty = 2
 
--- Keyed list of ULX rolls that are not Staff roles -- true = not staff
+-- Keyed list of ULX rolls that are not active duty Staff roles -- true = not staff
 local Staff = {
+		[ 'founder'] = true,
+		[ 'superadmin' ] = true,
+		[ 'servermanager' ] = true,
+		[ 'staffmanager' ] = true,
+		[ 'head admin' ] = true,
 		[ 'trusted-donator' ] = true,
 		[ 'trusted' ] = true,
 		[ 'donator' ] = true,
